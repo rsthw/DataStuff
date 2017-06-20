@@ -1,0 +1,3 @@
+[run]
+source = datastuff
+omit = datastuff/test*
