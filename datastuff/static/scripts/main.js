@@ -1,8 +1,6 @@
 // Image switcher code
 
 var myImage = document.querySelector('img');
-var wd = myImage.width;
-var hg = myImage.height;
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
@@ -11,8 +9,8 @@ myImage.onclick = function () {
     } else {
         myImage.setAttribute('src', 'static/imgs/wat.jpg');
     }
-    myImage.width = wd;
-    myImage.height = hg;
+    myImage.width = 604;
+    myImage.height = 404;
 }
 
 // Personalized welcome message code
