@@ -14,5 +14,7 @@ def main(global_config, **settings):
 
     config.add_route('sample', '/sample')
 
+    config.add_route('practice', 'example')
+
     config.scan()
     return config.make_wsgi_app()
